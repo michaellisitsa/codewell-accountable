@@ -1,13 +1,9 @@
-.header__nav {
-    color: grey;
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Hide header items in mobile/tablet only */
+.header__desktop-right, .header__nav {
     display: none;
 }
-
-.header__desktop-right {
-    display: none;
-}
-
-.header__nav-profile {
-    float: right;
-}
-
