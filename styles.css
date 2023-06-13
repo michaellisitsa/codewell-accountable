@@ -1,9 +1,4 @@
 .header__list {
-    color: grey
-}
-
-.header__list > li {
-    list-style: none;
-    display: inline;
-    margin: 10px;
+    color: grey;
+    display: none;
 }
