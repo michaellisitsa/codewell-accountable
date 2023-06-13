@@ -42,12 +42,16 @@ main {
     height: 100px;
 }
 
+.feed > * {
+    padding: 20px;
+    background-color: white;
+    margin: 20px 0;
+}
+
 .feed__share {
     display: flex;
     position: relative;
     gap: 10px;
-    padding: 20px;
-    background-color: white;
 }
 
 .feed__share > input {
@@ -65,4 +69,25 @@ main {
     top: 0;
     bottom: 0;
     margin: auto 0;
+}
+
+.feed__post-header {
+    display: flex;
+    gap: 10px;
+}
+
+/* feed__post-meta */
+.feed__post-header :nth-child(2) {
+    flex: 1;
+}
+
+.feed__post-meta :last-child {
+    color: grey;
+}
+
+.feed__post-header button {
+    background-color: white;
+    border: solid 1px grey;
+    border-radius: 5px;
+    padding: 10px;
 }
