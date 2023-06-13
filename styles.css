@@ -1,12 +1,14 @@
 /* Reset user agent */
 body {
     margin: 0;
+    background-color: #F4F5F7;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px
+    padding: 20px;
+    background-color: white;
 }
 
 /* Hide header items in mobile/tablet only */
@@ -20,9 +22,9 @@ main {
     flex-direction: column;
 }
 
-.feed {
-    background-color: red;
-    height:400px;
+.feed__post > img {
+    width: 100%;
+    margin: 10px 0;
 }
 
 .milestones {
@@ -85,7 +87,8 @@ main {
     color: grey;
 }
 
-.feed__post-header button {
+/* Generic button */
+.social-button {
     background-color: white;
     border: solid 1px grey;
     border-radius: 5px;
