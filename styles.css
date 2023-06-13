@@ -3,11 +3,15 @@
     display: none;
 }
 
-.header__logo, .header__right {
+.header__logo, .header__hamburger {
     display: inline;
 }
 
-.header__right {
+.header__desktop-right {
+    display: none;
+}
+
+.header__hamburger {
     float: right;
 }
 

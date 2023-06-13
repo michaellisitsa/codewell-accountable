@@ -16,4 +16,17 @@
         text-decoration: none;
         color: inherit;
     }
+
+    .header__desktop-right {
+        display: inline;
+        float: right;
+    }
+
+    .header__desktop-right img {
+        cursor: pointer;
+    }
+
+    .header__hamburger {
+        display: none;
+    }
 }
