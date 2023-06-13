@@ -28,20 +28,17 @@ main {
 }
 
 .milestones {
-    background-color: grey;
-    height: 200px;
     transform: translateY(100%);
 }
 
 .trending__posts {
-    background-color: blue;
-    height: 200px;
     transform: translateY(-100%);
 }
 
 .trending__video {
     background-color: black;
-    height: 100px;
+    max-height: 200px;
+    width: 100%;
 }
 
 .feed > * {
@@ -93,4 +90,25 @@ main {
     border: solid 1px grey;
     border-radius: 5px;
     padding: 10px;
+}
+
+.milestones, .trending__posts {
+    background-color: white;
+}
+
+.milestones__post {
+    display: flex;
+    gap: 10px;
+}
+
+.trending {
+    padding: 20px 0;
+}
+
+.trending__post :first-child {
+    font-weight: bold;
+}
+
+.trending__post :last-child {
+    color: grey;
 }
