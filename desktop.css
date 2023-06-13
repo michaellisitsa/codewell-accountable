@@ -8,10 +8,11 @@
         display: none;
     }
 
-    /* Align nav links to center */
     .header {
         display: flex;
         align-items: center;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 
     /* header__list */
