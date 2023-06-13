@@ -2,5 +2,30 @@
     .header {
         padding-left: 40px;
         padding-right: 40px;
-    }   
+    }
+
+    main {
+        flex-direction: row;
+    }
+
+    .feed {
+        width: 100%;
+    }
+    .milestones {
+        width: 50%;
+        transform: none;
+    }
+    .trending {
+        position: relative;
+        width: 50%;
+    }
+    .trending__posts {
+        transform: none;
+    }
+
+    /* The video needs to extend to the left on a 50-50 split */
+    .trending__video {
+        transform-origin: top right;
+        transform: scale(2)
+    }
 }

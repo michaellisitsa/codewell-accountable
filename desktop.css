@@ -37,4 +37,38 @@
         text-decoration: none;
         color: inherit;
     }
+
+    main {
+        flex-direction: row;
+    }
+
+    .feed {
+        order: 2;
+        flex: 1;
+    }
+
+    .milestones {
+        order: 1;
+        width: unset;
+        transform: none;
+        width: 20%;
+    }
+
+    .trending {
+        display: flex;
+        flex-direction: column;
+        order: 3;
+        width: 20%;
+    }
+
+    .trending__posts {
+        order: 2;
+        transform: none;
+        width: unset;
+        position: unset;
+    }
+
+    .trending__video {
+        transform: none;
+    }
 }
