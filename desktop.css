@@ -2,7 +2,7 @@
     .header__nav {
         display: inline-block;
     }
-    .header__nav ul {
+    .header__list {
         display: inherit;
         padding-inline-start: 0;
     }
@@ -29,4 +29,9 @@
     .header__hamburger {
         display: none;
     }
+
+    .header__nav-profile {
+        width: 60%;
+    }
+    
 }
