@@ -1,11 +1,15 @@
 @media (min-width: 1028px) {
-    .header__list {
-        display: unset;
+    .header__nav {
+        display: inline-block;
+    }
+    .header__nav ul {
+        display: inherit;
+        padding-inline-start: 0;
     }
     .header__list > li {
         list-style: none;
         display: inline;
-        margin: 10px;
+        margin: 0 10px;
     }
     
     .header__list a {

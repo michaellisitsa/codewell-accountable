@@ -1,4 +1,13 @@
-.header__list {
+.header__nav {
     color: grey;
     display: none;
 }
+
+.header__logo, .header__right {
+    display: inline;
+}
+
+.header__right {
+    float: right;
+}
+
