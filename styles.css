@@ -1,3 +1,8 @@
+/* Reset user agent */
+body {
+    margin: 0;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -35,4 +40,29 @@ main {
 .trending__video {
     background-color: black;
     height: 100px;
+}
+
+.feed__share {
+    display: flex;
+    position: relative;
+    gap: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.feed__share > input {
+    flex: 1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: solid grey 1px;
+}
+
+.feed__share > :last-child:is(img) {
+    position: absolute;
+    padding: inherit;
+    right: 10px;
+    /* Center vertically */
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
 }
