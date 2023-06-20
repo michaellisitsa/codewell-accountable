@@ -1,4 +1,6 @@
 @media (min-width: 1028px) {
+
+
     /* Show header items in desktop mode only */
     .header__nav, .header__desktop-right {
         display: unset;
@@ -40,6 +42,10 @@
 
     main {
         flex-direction: row;
+        max-width: 1200px;
+        margin: auto;
+        gap: 20px;
+        flex-wrap: nowrap;
     }
 
     .feed {

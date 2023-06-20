@@ -6,6 +6,7 @@
 
     main {
         flex-direction: row;
+        padding: 0 40px;
     }
 
     .feed {
@@ -14,6 +15,7 @@
     .milestones {
         width: 50%;
         transform: none;
+        margin-bottom: auto;
     }
     .trending {
         position: relative;

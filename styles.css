@@ -11,15 +11,27 @@ body {
     background-color: white;
 }
 
+h1 {
+    margin: 0;
+}
+
 /* Hide header items in mobile/tablet only */
 .header__desktop-right, .header__nav {
     display: none;
+}
+
+.tile-container {
+    padding: 20px;
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+main > * {
+    margin: 20px 0;
 }
 
 .feed__post > img {
@@ -29,6 +41,10 @@ main {
 
 .milestones {
     transform: translateY(100%);
+}
+
+.trending {
+    gap: 20px;
 }
 
 .trending__posts {
@@ -41,9 +57,20 @@ main {
     width: 100%;
 }
 
+.trending__post :first-child {
+    font-weight: bold;
+}
+
+.trending__post :last-child {
+    color: grey;
+}
+
 .feed > * {
     padding: 20px;
     background-color: white;
+}
+
+.feed > *:not(:first-child) {
     margin: 20px 0;
 }
 
@@ -99,16 +126,4 @@ main {
 .milestones__post {
     display: flex;
     gap: 10px;
-}
-
-.trending {
-    padding: 20px 0;
-}
-
-.trending__post :first-child {
-    font-weight: bold;
-}
-
-.trending__post :last-child {
-    color: grey;
 }
